@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+data/input/*
+data/output/checkpoints/*
+data/output/tensorboard/*
+data/output/predictions/*
+!.gitkeep
+*.pt
+*.pth
