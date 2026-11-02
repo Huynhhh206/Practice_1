@@ -28,7 +28,7 @@
 | **03/11 (T3)** | Mai | Tạo `src/config.py`, các `__init__.py`, `requirements.txt`, `.gitignore`; chốt cấu trúc project. |
 | | Mai | Hoàn thành `lab_requirements.md`. |
 | | Đức | Hoàn thành `hyperparameters.md`. |
-| | Trúc Chi | Chốt chữ ký hàm mục 15.3 để Trúc Chi viết `conftest.py`. |
+| | Trúc Chi | Chốt đầu vào/đầu ra giữa các module để Trúc Chi viết conftest.py. |
 | **04/11 (T4)** | Nguyễn Chi | Hoàn thành `transforms.py`. |
 | | My | Hoàn thành `neural_network.py`. |
 | | Huynh | Hoàn thành `metrics.py`. |
