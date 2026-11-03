@@ -1,0 +1,16 @@
+# Thư viện cho Practice 1 – PyTorch FashionMNIST Classification
+# Cài đặt: pip install -r requirements.txt
+# Lưu ý: bản PyTorch phù hợp phụ thuộc hệ điều hành và phần cứng (CPU/GPU),
+# xem https://pytorch.org/get-started/locally/ . Sau khi môi trường chạy ổn,
+# có thể cố định đúng phiên bản bằng `pip freeze` để tái lập chính xác.
+ 
+torch>=2.0
+torchvision>=0.15
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+tensorboard>=2.12
+scikit-learn>=1.2
+pytest>=7.0
+jupyter>=1.0
+ 
