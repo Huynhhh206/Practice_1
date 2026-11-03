@@ -22,22 +22,93 @@ FashionMNIST gồm 60.000 ảnh train và 10.000 ảnh test, ảnh grayscale 28 
 
 ```text
 Practice_1/
+│
+├── README.md
+├── requirements.txt
+├── CHANGELOG.md
+├── LICENSE
+├── .gitignore
+│
 ├── data/
-│   ├── input/                 # FashionMNIST tải về
-│   └── output/                # checkpoints/, predictions/, tensorboard/
-├── notebooks/                 # 01_pytorch_basics, 02_fashionmnist_training, 03_practice1_full
+│   ├── input/
+│   └── output/
+│       ├── checkpoints/
+│       ├── predictions/
+│       └── tensorboard/
+│
+├── notebooks/
+│   ├── 01_pytorch_basics.ipynb
+│   ├── 02_fashionmnist_training.ipynb
+│   └── 03_practice1_full.ipynb
+│
 ├── src/
-│   ├── config.py              # đường dẫn, hằng số, hyperparameters
-│   ├── preprocessing/         # transforms.py, dataset.py
-│   ├── models/                # neural_network.py, model_io.py
-│   ├── training/              # trainer.py
-│   ├── evaluation/            # metrics.py
-│   └── visualization/         # plot_loss.py, show_predictions.py
-├── experiments/               # compare_models.py, tune_hyperparams.py
-├── tests/                     # kiểm thử với pytest
-├── docs/                      # kế hoạch, yêu cầu, nghiên cứu, thiết kế, kiểm thử, kết quả
-└── results/                   # figures/, tables/, reports/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── preprocessing/
+│   │   ├── __init__.py
+│   │   ├── transforms.py
+│   │   └── dataset.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── neural_network.py
+│   │   └── model_io.py
+│   ├── training/
+│   │   ├── __init__.py
+│   │   └── trainer.py
+│   ├── evaluation/
+│   │   ├── __init__.py
+│   │   └── metrics.py
+│   └── visualization/
+│       ├── __init__.py
+│       ├── plot_loss.py
+│       └── show_predictions.py
+│
+├── experiments/
+│   ├── __init__.py
+│   ├── compare_models.py
+│   └── tune_hyperparams.py
+│
+├── tests/
+│   ├── conftest.py
+│   ├── test_dataset.py
+│   ├── test_transforms.py
+│   ├── test_model.py
+│   ├── test_model_io.py
+│   ├── test_trainer.py
+│   └── test_metrics.py
+│
+├── docs/
+│   ├── 01_project_management/
+│   │   ├── project_plan.md
+│   │   ├── task_list.md
+│   │   ├── task_guide.md
+│   │   └── timeline.md
+│   ├── 02_requirements/
+│   │   ├── lab_requirements.md
+│   │   └── experiment_requirements.md
+│   ├── 03_research/
+│   │   ├── pytorch_basics.md
+│   │   ├── data_preprocessing.md
+│   │   ├── hyperparameters.md
+│   │   └── evaluation_methods.md
+│   ├── 04_design/
+│   │   ├── processing_pipeline.md
+│   │   └── system_architecture.md
+│   ├── 05_testing/
+│   │   ├── test_plan.md
+│   │   ├── test_cases.md
+│   │   └── test_report.md
+│   └── 06_results/
+│       ├── experiment_results.md
+│       ├── evaluation_results.md
+│       └── conclusion.md
+│
+└── results/
+    ├── figures/
+    ├── tables/
+    └── reports/
 ```
+
 
 Chi tiết từng thư mục và người phụ trách xem file `Hướng Dẫn Practice_1.md`.
 
